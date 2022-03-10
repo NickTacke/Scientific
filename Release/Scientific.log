@@ -1,0 +1,7 @@
+﻿  Overlay.cpp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Users\theni\source\repos\Scientific\Scientific\src\Valve\sdk\Hooks\hooks.cpp(72): warning C4715: 'Hooks::EndScene': not all control paths return a value
+  All 1683 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Scientific.vcxproj -> C:\Users\theni\source\repos\Scientific\Release\Scientific.dll
