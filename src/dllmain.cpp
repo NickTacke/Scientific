@@ -30,7 +30,7 @@ void Setup(HMODULE hModule)
 		if (GetAsyncKeyState(VK_INSERT) & 1)
 			Overlay::open = !Overlay::open;
 
-		Globals::localPlayer = *(DWORD*)(Globals::ClientBase + 0xdb35dc);
+		Globals::localPlayer = *(DWORD*)(Globals::ClientBase + 0xdb65dc);
 
 		std::this_thread::sleep_for(std::chrono::milliseconds(1));
 	}
